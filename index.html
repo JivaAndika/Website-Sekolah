@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <!-- << CSS >> -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- << ICON >> -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- << FONTS >> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+  </head>
+  <body class="font-poppins">
+    <nav class="navbar w-full bg-white h-16 fixed shadow-lg">
+      <div
+        class="container mx-auto flex items-center justify-between p-5 lg:p-3"
+      >
+        <h3 class="font-bold text-xl">
+          <span class="text-[#1B5BDF]">SMA</span>IT
+        </h3>
+        <ul class="lg:flex w-1/2 justify-between hidden">
+          <li class="text-black"><a href="">Home</a></li>
+          <li class="text-black"><a href="">About Us</a></li>
+          <li class="text-black"><a href="">Teacher</a></li>
+          <li class="text-black"><a href="">News</a></li>
+          <li class="text-black"><a href="">Program</a></li>
+          <li class="text-black"><a href="">Student</a></li>
+        </ul>
+        <div
+          class="rounded-full bg-[#1B5BDF] text-white px-4 py-2 hidden lg:flex cursor-pointer"
+        >
+          <button>Contact</button>
+        </div>
+        <div class="menu-toggle lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8 fill-black cursor-pointer"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </nav>
+    <aside
+      class="w-full h-screen bg-white bg-opacity-80 fixed lg:hidden transition-all ease-in-out duration-200 -translate-x-full"
+    >
+      <div
+        class="h-full content backdrop-blur flex items-center justify-center"
+      >
+        <button class="absolute top-3 right-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8 fill-[#1B5BDF]"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+            ></path>
+          </svg>
+        </button>
+        <ul class="flex flex-col gap-2 text-center">
+          <li class="text-black"><a href="">Home</a></li>
+          <li class="text-black"><a href="">About Us</a></li>
+          <li class="text-black"><a href="">Teacher</a></li>
+          <li class="text-black"><a href="">News</a></li>
+          <li class="text-black"><a href="">Program</a></li>
+          <li class="text-black"><a href="">Student</a></li>
+        </ul>
+      </div>
+    </aside>
+    <!--  -->
+    <div class="hero bg-[url('./../img/bg-hero.png')] pt-20">
+      <div class="container h-fit flex flex-col p-4">
+        
+        <div class="title text-center">
+          <h1 class="text-3xl font-black text-[#fafafa]">
+            SMAIT <span class="text-[#1B5BDF]">HSI IDN</span> PURWOREJO
+          </h1>
+        </div>
+        <!-- <div class="hero-image relative">
+          <img src="img/hero.png" alt="" />
+          <div class="hero-card1 absolute w-9 bg-white top-5 right-1">
+            <img src="img/hero-card1.png" alt="" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
