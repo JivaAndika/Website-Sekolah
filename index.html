@@ -18,7 +18,7 @@
     <!--  -->
   </head>
   <body class="font-poppins">
-    <nav class="navbar w-full bg-white h-16 fixed shadow-lg">
+    <nav class="navbar w-full bg-white h-16 fixed shadow-lg z-40">
       <div
         class="container mx-auto flex items-center justify-between p-5 lg:p-3"
       >
@@ -130,7 +130,7 @@
           <div
             class="hero-card1 absolute w-[225px] hidden lg:flex rounded-md bg-white top-20 -right-20 shadow-md p-3 gap-3"
           >
-            <img src="img/hero-card1.png" class="w-8 h-8" alt="" />
+            <img src="img/hero-card1.png" class="w-8 h-8 lg:w-6" alt="" />
 
             <div class="quote flex flex-col">
               <h3 class="text-xs font-bold">
@@ -151,26 +151,86 @@
       </div>
     </section>
     <section class="why-section pt-10">
-      <div class="container mx-auto justify-center">
+      <div class="container mx-auto flex flex-col justify-center">
         <div class="why-tittle text-center">
           <h2 class="font-black text-2xl md:text-4xl mb-6">
             Kenapa harus SMA IT <span class="text-[#1B5BDF]">HSI IDN?</span>
           </h2>
-          <p class="font-medium text-[#575757]">
+          <p class="font-medium text-center text-[#575757] px-4">
             Alasan kenapa harus memilih untuk bergabung dengan SMK Negeri
             Makassar.
           </p>
         </div>
-        <div class="why-content mt-8 flex flex-col justify-center items-center">
+        <div
+          class="why-content mt-20 flex flex-col md:flex-row flex-wrap justify-center items-center gap-8"
+        >
           <div
-            class="why-card flex flex-col text-center justify-center items-center bg-white w-[239px] drop-shadow-2xl p-6 mb-5 rounded-lg"
+            class="why-card flex flex-col text-center justify-center items-center bg-white w-[239px] drop-shadow-xl px-6 py-10 mb-5 rounded-lg"
           >
             <img src="img/computer.png" class="w-[60px]" alt="" />
-            <h3 class="mt-4 mb-2">Fasilitas lengkap</h3>
-            <p class="text-[#838383]">
+            <h3 class="mt-4 mb-2 font-bold">Fasilitas lengkap</h3>
+            <p class="text-[#838383] text-sm">
               Penunjang belajar dengan kualitas terbaik
             </p>
           </div>
+          <div
+            class="why-card flex flex-col text-center justify-center items-center bg-white w-[239px] drop-shadow-xl px-6 py-10 mb-5 rounded-lg"
+          >
+            <img src="img/building.png" class="w-[60px]" alt="" />
+            <h3 class="mt-4 mb-2 font-bold">Lingkungan yang asri</h3>
+            <p class="text-[#838383] text-sm">
+              Berada di lingkungan yang nyaman dan asri
+            </p>
+          </div>
+          <div
+            class="why-card flex flex-col text-center justify-center items-center bg-white w-[239px] drop-shadow-xl px-6 py-10 mb-5 rounded-lg"
+          >
+            <img src="img/peoples.png" class="w-[60px]" alt="" />
+            <h3 class="mt-4 mb-2 font-bold">Pengajar kompeten</h3>
+            <p class="text-[#838383] text-sm">Guru terbaik dengan pengalaman</p>
+          </div>
+          <div
+            class="why-card flex flex-col text-center justify-center items-center bg-white w-[239px] drop-shadow-xl px-6 py-10 mb-5 rounded-lg"
+          >
+            <img src="img/collaboration.png" class="w-[60px]" alt="" />
+            <h3 class="mt-4 mb-2 font-bold">Kerja sama luas</h3>
+            <p class="text-[#838383] text-sm">
+              Dapat kesempatan kerja yang lebih terjamin
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="profile-section pt-10">
+      <div class="profile-tittle text-center">
+        <h2 class="font-black text-2xl md:text-4xl mb-6">
+          Profile SMA IT <span class="text-[#1B5BDF]">HSI IDN</span>
+        </h2>
+      </div>
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-center gap-8"
+      >
+        <div class="profile-image md:w-[582px]">
+          <img src="img/profile.JPG" class="lg:rounded-lg" alt="" />
+        </div>
+        <div class="profile-welcome text-center md:text-start pt-4 md:pt-0">
+          <h1 class="text-xl md:text-2xl font-bold">
+            Sambutan Kepala Sekolah SMA IT
+            <span class="text-[#1B5BDF]">HSI IDN</span>
+          </h1>
+          <p class="mt-4">
+            sekolah adalah tempat mencetak penerus bangsa yang berkualitas dan
+            berprestasi di segala bidang yang dapat bersaing di dunia
+            internasional
+            <br />
+            dan Sekolah adalah tempat anak-anak mendapatkan dukungan untuk
+            melengkapi pembelajarannya di sekolah
+          </p>
+          <button
+            class="text-white bg-[#1B5BDF] ring-1 ring-[#1b5bdf] hover:bg-white hover:text{#1B5BDF} px-6 py-4 rounded-full text-sm md:shadow-xl md:text-base font-semibold transition-all ease-in-out duration-150"
+          >
+            Baca selengkapnya <i class="ph-bold ph-caret-right"></i>
+          </button>
         </div>
       </div>
     </section>
