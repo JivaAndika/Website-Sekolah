@@ -1033,6 +1033,10 @@ video {
   height: 232px;
 }
 
+.h-\[284px\] {
+  height: 284px;
+}
+
 .h-\[290px\] {
   height: 290px;
 }
@@ -1059,6 +1063,22 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[38px\] {
+  height: 38px;
+}
+
+.h-\[380px\] {
+  height: 380px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-1\/2 {
@@ -2238,6 +2258,11 @@ video {
   background-color: rgb(27 91 223 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1b5bdf\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 91 223 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#362FD9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(54 47 217 / var(--tw-bg-opacity));
@@ -2272,6 +2297,31 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#ffffff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffffff6e\] {
+  background-color: #ffffff6e;
+}
+
+.bg-\[\#ffffffc4\] {
+  background-color: #ffffffc4;
+}
+
+.bg-\[\#ffffffd5\] {
+  background-color: #ffffffd5;
+}
+
+.bg-\[\#ffffffa4\] {
+  background-color: #ffffffa4;
+}
+
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
@@ -2294,6 +2344,10 @@ video {
 
 .bg-\[url\(\'\.\/\.\.\/img\/bg-hero\.png\'\)\] {
   background-image: url('./../img/bg-hero.png');
+}
+
+.bg-\[url\(\'\.\/\.\.\/img\/news_1\.JPG\'\)\] {
+  background-image: url('./../img/news_1.JPG');
 }
 
 .decoration-slice {
@@ -3464,6 +3518,14 @@ video {
     width: 556px;
   }
 
+  .md\:w-9 {
+    width: 2.25rem;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -3591,9 +3653,24 @@ video {
     background-color: rgb(27 91 223 / var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-white:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:text-\[\#1b5bdf\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(27 91 223 / var(--tw-text-opacity));
+  }
+
   .md\:hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .md\:hover\:ring-\[\#1b5bdf\]:hover {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(27 91 223 / var(--tw-ring-opacity));
   }
 }
 
@@ -3728,6 +3805,10 @@ video {
 
   .lg\:w-\[600px\] {
     width: 600px;
+  }
+
+  .lg\:w-\[700px\] {
+    width: 700px;
   }
 
   .lg\:w-\[800px\] {
