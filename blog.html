@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- style="scroll-behavior: smooth" -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <!-- << CSS >> -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- << ICON >> -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- << FONTS >> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+  </head>
+  <body class="font-poppins">
+    <nav class="navbar w-full bg-white h-16 fixed shadow-lg z-40">
+      <div
+        class="container mx-auto flex items-center justify-between p-5 lg:p-3"
+      >
+        <h3 class="font-bold text-xl">
+          SMA
+          <span class="text-[#1B5BDF]">IT</span>
+        </h3>
+        <ul class="lg:flex w-1/2 justify-between hidden">
+          <li class="text-black"><a href="index.html">Home</a></li>
+          <li class="text-black"><a href="">About Us</a></li>
+          <li class="text-black"><a href="program.html">Program</a></li>
+          <li class="text-black"><a href="index_blog.html">News</a></li>
+          <li class="text-black"><a href="partner.html">Partner</a></li>
+          <li class="text-black"><a href="alumnus.html">Alumnus</a></li>
+        </ul>
+        <div
+          class="rounded-full bg-[#1B5BDF] text-white px-4 py-2 hidden lg:flex cursor-pointer"
+        >
+          <button>Contact</button>
+        </div>
+        <button class="menu-toggle lg:hidden relative" onclick="openNavbar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8 fill-black cursor-pointer"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <aside
+      class="w-full mr-auto h-screen backdrop-blur bg-[#0000009f] bg-opacity-80 fixed transition-all ease-in-out duration-200 flex justify-end lg:hidden translate-x-full z-50"
+    >
+      <div
+        class="w-72 h-full bg-white content flex items-center justify-end p-10"
+      >
+        <button class="absolute top-3 right-3" onclick="closeNavbar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8 fill-[#1B5BDF]"
+            viewBox="0 0 256 256"
+          >
+            <path
+              d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+            ></path>
+          </svg>
+        </button>
+        <ul class="flex flex-col gap-5 text-right">
+          <li class="text-black font-semibold">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="text-black font-semibold"><a href="">About Us</a></li>
+          <li class="text-black font-semibold">
+            <a href="program.html">Program</a>
+          </li>
+          <li class="text-black font-semibold">
+            <a href="index_blog.html">News</a>
+          </li>
+          <li class="text-black font-semibold">
+            <a href="partner.html">Partner</a>
+          </li>
+          <li class="text-black font-semibold">
+            <a href="alumnus.html">Alumnus</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!--  -->
+    <section class="blog pt-20">
+      <!-- <div class="container mx-auto flex justify-center items-center"> -->
+      <!-- <div class="content mx-auto flex justify-center">
+          <img src="img/news_1.JPG" class="md:w-4/5" />
+        </div> -->
+      <h1
+        class="w-[92%] mx-auto lg:text-4xl md:text-3xl xs:text-2xl text-center font-serif font-semibold pb-4 pt-8"
+      >
+        Why Tailwind CSS Wins My Utility Belt: A Dev's Guide
+      </h1>
+
+      <!-- Blog Cover -->
+      <img
+        src="img/news_1.JPG"
+        alt="Blog Cover"
+        class="xl:w-[80%] xs:w-[96%] mx-auto lg:h-[560px] md:h-[480px] rounded-lg"
+      />
+
+      <!-- Blog Info -->
+      <div
+        class="w-[90%] mx-auto flex md:gap-4 gap-2 justify-center items-center pt-4"
+      >
+        <div class="flex gap-2 items-center">
+          <img
+            src="img/hero-card1.png"
+            alt="Bloger Profile"
+            class="md:w-[35px] md:h-[35px] w-[32px] h-[32px]"
+          />
+          <h2 class="text-sm font-semibold">Samuel Abera</h2>
+        </div>
+        <div class="">|</div>
+
+        <h3 class="text-sm font-semibold text-gray-600">MAY 20, 2024</h3>
+
+        <div class="">|</div>
+        <h4 class="text-sm font-semibold text-gray-600">5 MIN READ</h4>
+      </div>
+
+      <!-- Blog -->
+      <div class="py-6 bg-white">
+        <div class="md:w-[80%] xs:w-[90%] mx-auto pt-4">
+          <p class="mx-auto text-md">
+            In the world of CSS frameworks, there are plenty of contenders vying
+            for your attention. But for me, Tailwind CSS stands out from the
+            pack. Here's why Tailwind CSS is my go-to for building modern
+            websites:
+          </p>
+
+          <h1 class="font-semibold text-lg mt-4">
+            1. Utility-First Philosophy
+          </h1>
+          <p class="mt-2 text-md">
+            Tailwind ditches bulky pre-built components and instead offers a
+            massive toolbox of utility classes. These classes, like "text-red-5"
+            or "flex justify-center," target specific styles (color, layout) and
+            can be easily combined to achieve your desired look. This gives you
+            ultimate control and keeps your CSS nice and lean.
+          </p>
+
+          <!--  -->
+
+          <h1 class="font-semibold text-lg mt-4">2. Rapid Prototyping</h1>
+          <p class="mt-2 text-md">
+            Need to get a design off the ground quickly? Tailwind's utility
+            classes make it a breeze. Forget digging through stylesheets - just
+            apply classes directly in your HTML. This lets you iterate on
+            designs faster and see the visual changes instantly.
+          </p>
+
+          <!--  -->
+          <h1 class="font-semibold text-lg mt-4">
+            3. Responsive Out of the Box
+          </h1>
+          <p class="mt-2 text-md">
+            Tailwind's utility classes are inherently responsive, meaning they
+            adapt to different screen sizes. No need for complex media queries -
+            just add a responsive variant to your class (e.g. "text-lg" for
+            large screens). This saves you time and ensures your website looks
+            sharp on any device.
+          </p>
+
+          <!--  -->
+          <h1 class="font-semibold text-lg mt-4">4. Customization King</h1>
+          <p class="mt-2 text-md">
+            Don't be fooled by Tailwind's utility-first approach. You can still
+            create custom themes and components. Need a specific button style?
+            No problem, define it with custom CSS and reuse it throughout your
+            project. Tailwind integrates seamlessly with your existing workflow.
+          </p>
+
+          <!--  -->
+          <h1 class="font-semibold text-lg mt-4">5. Framework Agnostic</h1>
+          <p class="mt-2 text-md">
+            Tailwind plays well with others. Whether you're using React, Vue,
+            Angular, or plain JavaScript, Tailwind integrates without a hitch.
+            This flexibility makes it a valuable asset for any project
+            regardless of your preferred framework.
+          </p>
+
+          <!--  -->
+          <h1 class="font-semibold text-lg mt-4">Conclusion</h1>
+          <p class="mt-2 text-md">
+            Tailwind CSS offers a unique approach to styling that prioritizes
+            speed, customization, and responsiveness. It's a powerful tool that
+            can streamline your workflow and help you build beautiful, modern
+            websites. So, if you're looking for a CSS framework that empowers
+            you to create with freedom, give Tailwind CSS a try!
+          </p>
+        </div>
+      </div>
+
+      <!-- </div> -->
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-[#1B5BDF] pt-4">
+      <div
+        class="container mx-auto flex flex-col md:flex-row md:justify-between gap-6"
+      >
+        <div class="p-4 tittle-footer text-white lg:w-[450px]">
+          <h3 class="font-bold text-xl">
+            SMA<span class="text-black">IT</span>
+          </h3>
+          <p class="font-medium text-xs mt-3">
+            Sekolah adalah tempat mencetak penerus bangsa yang berkualitas dan
+            berprestasi di segala bidang yang dapat bersaing di dunia
+            internasional
+          </p>
+        </div>
+        <div class="icon-footer p-4 text-white md:text-right lg:w-72">
+          <div class="icon-content flex gap-3 md:justify-end">
+            <a target="_blank" href="https://www.facebook.com/sma.ti.hsi.idn/"
+              ><i class="ph-fill text-[22px] ph-facebook-logo"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/smaithsiidn/"
+              ><i class="ph-fill text-[22px] ph-instagram-logo"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/@smaithsiidnpurworejo"
+              ><i class="ph-fill text-[22px] ph-youtube-logo"></i
+            ></a>
+          </div>
+          <p class="font-medium text-xs mt-3">
+            Dibuat Oleh SMA IT HSI-IDN, Menggunakan Tailwind CSS dan JS.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+    <script src="script.js"></script>
+  </body>
+</html>
